@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 #Output styling
 Green='\033[0;32m'
 Red='\033[0;31m'

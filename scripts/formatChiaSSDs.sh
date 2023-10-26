@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 drivelist="$1"
 echo considering to format the following drives:
 echo

@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source ~/control/scripts/functions.sh
 code=0
 while [ $code -ne 1 ]

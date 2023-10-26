@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source ~/control/scripts/functions.sh
 disk=$1
 k32count=$(ls -l /mnt/ChiaDrive$disk/plots/ | grep plot-k32 | wc -l)

@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source ~/control/scripts/functions.sh
 
 source=/mnt/plotting*/plots/plot*plot

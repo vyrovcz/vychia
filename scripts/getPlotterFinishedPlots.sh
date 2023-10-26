@@ -1,7 +1,8 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source /home/vychia/control/scripts/functions.sh
 plotters=( 1 2 3 4 5 8 )
-command="df -h | egrep  'Mounted|plotting|Chia'"
+command="tail -n 3999 control/logs/plotting* | egrep '<==|finished '"
 echo
 echo '***************************************'
 echo "***** $(styleCyan "running cmd on all plotters") *****"

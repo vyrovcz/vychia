@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source ~/control/scripts/functions.sh
 
 #minimum space (GiB) required for 1 k34 plot

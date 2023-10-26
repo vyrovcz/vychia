@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 badplotids "$1"
 . ./chia-blockchain/activate
 echo starting now

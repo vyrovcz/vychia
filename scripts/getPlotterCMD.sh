@@ -1,7 +1,8 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source /home/vychia/control/scripts/functions.sh
 plotters=( 1 2 3 4 5 8 )
-command="ps auxf | grep 'chia plots create' | awk 'BEGIN {sum=0} {sum=sum+\$3} END {print sum}'"
+command="$1"
 echo
 echo '***************************************'
 echo "***** $(styleCyan "running cmd on all plotters") *****"
@@ -17,5 +18,5 @@ do
     echo '***************************************'
     echo
     read -rsn1 -p"Press any key to start";echo
-    ssh id@192.168.100.2$plotter "$command"
+    ssh id@192.168.100.2"$plotter" "$command"
 done

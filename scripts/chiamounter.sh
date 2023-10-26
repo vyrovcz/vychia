@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source /home/vychia/control/scripts/functions.sh
 
 echo get all unmounted labels...

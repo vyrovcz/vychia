@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 source ~/control/scripts/style.sh
 function ok {
     echo -e "[ $(styleGreen ok) ] $1"

@@ -1,4 +1,5 @@
 #!/bin/bash
+#    written by Jacob Obrman in June 2021
 #the drive device paths given with first argument
 drivelist="$1"
 #the first two numbers of the ChiaDrive
